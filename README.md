@@ -1,4 +1,4 @@
-# Variation Gallery Simplified
+![image](https://github.com/sajjadh47/Variation-Gallery-Simplified/assets/16754987/0f7a0b57-3743-4109-9235-1d033e93ebb6)![image](https://github.com/sajjadh47/Variation-Gallery-Simplified/assets/16754987/fbb74131-38ee-4cda-9fec-677c96dd0b5b)# Variation Gallery Simplified
 
 **Contributors:** sajjad67 \
 **Tags:** woocommerce,woo,variation,gallery,carousal,slider,variation-gallery,woo-variation \
@@ -56,19 +56,19 @@ It Might Not Work If Any Theme/Plugin Not Use Woocommerce Templating System For 
 
 ### 1. Dashboard.
 
-![Dashboard.](https://s.w.org/plugins/variation-gallery-simplified/screenshot-1.png)
+![Dashboard.](https://ps.w.org/variation-gallery-simplified/assets/screenshot-1.png)
 
 ### 2. Dashboard Image Added.
 
-![Dashboard Image Added.](https://s.w.org/plugins/variation-gallery-simplified/screenshot-2.png)
+![Dashboard Image Added.](https://ps.w.org/variation-gallery-simplified/assets/screenshot-2.png)
 
 ### 3. Dashboard Gallery Image Section Collapsed.
 
-![Dashboard Gallery Image Section Collapsed.](https://s.w.org/plugins/variation-gallery-simplified/screenshot-3.png)
+![Dashboard Gallery Image Section Collapsed.](https://ps.w.org/variation-gallery-simplified/assets/screenshot-3.png)
 
 ### 4. Single Page view of variation gallery.
 
-![Single Page view of variation gallery.](https://s.w.org/plugins/variation-gallery-simplified/screenshot-4.png)
+![Single Page view of variation gallery.](https://ps.w.org/variation-gallery-simplified/assets/screenshot-4.png)
 
 
 ## Changelog
