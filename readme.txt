@@ -2,8 +2,8 @@
 Contributors: sajjad67
 Tags: woocommerce,woo,variation,gallery,carousal,slider,variation-gallery,woo-variation
 Requires at least: 5.7
-Tested up to: 6.2
-Stable tag: 1.0.0
+Tested up to: 6.6
+Stable tag: 1.0.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,10 @@ It Might Not Work If Any Theme/Plugin Not Use Woocommerce Templating System For 
 4. Single Page view of variation gallery.
 
 == Changelog ==
+= 1.0.2 =
+- Compatibility check for wp v6.6
+= 1.0.1 =
+- Compatibility check for wp v6.3
 = 1.0.0 =
 - Initial release.
 

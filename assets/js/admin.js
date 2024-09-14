@@ -51,8 +51,8 @@ jQuery( document ).ready( function( $ )
 			{
 				// If the media frame already exists, reopen it.
 				if ( frame )
-			  	{
-			  		frame.open(); return;
+				{
+					frame.open(); return;
 				}
 
 				// Create the media frame.
@@ -76,7 +76,7 @@ jQuery( document ).ready( function( $ )
 					var html = images.map( function ( image )
 					{
 						if ( image.type === 'image' )
-					  	{
+						{
 							var id = image.id,
 								
 								_image$sizes = image.sizes;
@@ -110,14 +110,14 @@ jQuery( document ).ready( function( $ )
 
 				frame.open();
 			}
-	  	},
+		},
 		'VariationChanged': function( $el )
 		{			
 			$( $el ).closest( '.woocommerce_variation' ).addClass( 'variation-needs-update' );
-	        
-	        $( 'button.cancel-variation-changes, button.save-variation-changes' ).removeAttr( 'disabled' );
-	        
-	        $( '#variable_product_options' ).trigger( 'woocommerce_variations_input_changed' );
+			
+			$( 'button.cancel-variation-changes, button.save-variation-changes' ).removeAttr( 'disabled' );
+			
+			$( '#variable_product_options' ).trigger( 'woocommerce_variations_input_changed' );
 		},
 		'RemoveImage': function( event )
 		{
@@ -132,8 +132,8 @@ jQuery( document ).ready( function( $ )
 			_.delay( function ()
 			{
 				$( _this2 ).parent().remove();
-	        
-	        }, 1 );
+			
+			}, 1 );
 		},
 		'Sortable': function()
 		{
@@ -147,18 +147,18 @@ jQuery( document ).ready( function( $ )
 				helper: 'clone',
 				opacity: 0.65,
 				placeholder: 'variation-gallery-simplified-sortable-placeholder',
-			  	start: function( event, ui )
-			  	{
+				start: function( event, ui )
+				{
 					ui.item.css( 'background-color', '#F6F6F6' );
-			  	},
-			  	stop: function( event, ui )
-			  	{
+				},
+				stop: function( event, ui )
+				{
 					ui.item.removeAttr( 'style' );
-			  	},
-			  	update: function()
-			  	{
-			  		WooVariationGallerySimplified.VariationChanged( this );
-			  	}
+				},
+				update: function()
+				{
+					WooVariationGallerySimplified.VariationChanged( this );
+				}
 			} );
 		}
 	};

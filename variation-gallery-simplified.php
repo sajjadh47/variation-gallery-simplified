@@ -3,16 +3,16 @@
 Plugin Name: Variation Gallery Simplified
 Plugin URI : https://wordpress.org/plugins/variation-gallery-simplified
 Description: Add multiple images per product variation on WooCommerce.
-Version: 1.0.0
+Version: 1.0.2
 Author: Sajjad Hossain Sagor
 Author URI: https://sajjadhsagor.com
 Text Domain: variation-gallery-simplified
 Domain Path: /languages
 Requires PHP: 7.4
 Requires at least: 5.7
-Tested up to: 6.2
+Tested up to: 6.6
 WC requires at least: 5.8
-WC tested up to: 7.5
+WC tested up to: 9.3
 
 License: GPL2
 This WordPress Plugin is free software: you can redistribute it and/or modify
@@ -34,12 +34,12 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 if( ! defined( 'WOOVGIS_ROOT_DIR' ) )
 {
-    define( 'WOOVGIS_ROOT_DIR', dirname( __FILE__ ) ); // Plugin root dir
+	define( 'WOOVGIS_ROOT_DIR', dirname( __FILE__ ) ); // Plugin root dir
 }
 
 if( ! defined( 'WOOVGIS_ROOT_URL' ) )
 {
-    define( 'WOOVGIS_ROOT_URL', plugin_dir_url( __FILE__ ) ); // Plugin root url
+	define( 'WOOVGIS_ROOT_URL', plugin_dir_url( __FILE__ ) ); // Plugin root url
 }
 
 /**
@@ -49,10 +49,10 @@ register_activation_hook( __FILE__, 'woovgis_plugin_activated' );
 
 if ( ! function_exists( 'woovgis_plugin_activated' ) )
 {
-    function woovgis_plugin_activated()
-    {
-    	woovgis_check_dependency();
-    }
+	function woovgis_plugin_activated()
+	{
+		woovgis_check_dependency();
+	}
 }
 
 /**
@@ -62,7 +62,7 @@ register_deactivation_hook( __FILE__, 'woovgis_plugin_deactivated' );
 
 if ( ! function_exists( 'woovgis_plugin_deactivated' ) )
 {
-    function woovgis_plugin_deactivated() {}
+	function woovgis_plugin_deactivated() {}
 }
 
 /**
@@ -72,26 +72,26 @@ register_uninstall_hook( __FILE__, 'woovgis_plugin_uninstalled' );
 
 if ( ! function_exists( 'woovgis_plugin_uninstalled' ) )
 {
-    function woovgis_plugin_uninstalled() {}
+	function woovgis_plugin_uninstalled() {}
 }
 
 if ( ! function_exists( 'woovgis_check_dependency' ) )
 {
-    function woovgis_check_dependency()
-    {
-    	if ( ! class_exists( 'WooCommerce' ) )
+	function woovgis_check_dependency()
+	{
+		if ( ! class_exists( 'WooCommerce' ) )
 		{
 			// is this plugin active?
 			if ( is_plugin_active( plugin_basename( __FILE__ ) ) )
 			{
 				// deactivate the plugin
-		 		deactivate_plugins( plugin_basename( __FILE__ ) );
-		 		
-		 		// unset activation notice
-		 		unset( $_GET[ 'activate' ] );
-		 		
-		 		// display notice
-		 		add_action( 'admin_notices', function()
+				deactivate_plugins( plugin_basename( __FILE__ ) );
+				
+				// unset activation notice
+				unset( $_GET[ 'activate' ] );
+				
+				// display notice
+				add_action( 'admin_notices', function()
 				{
 					if ( ! class_exists( 'WooCommerce' ) )
 					{
@@ -104,7 +104,7 @@ if ( ! function_exists( 'woovgis_check_dependency' ) )
 				} );
 			}
 		}
-    }
+	}
 }
 
 /**
@@ -165,11 +165,11 @@ add_action( 'admin_print_footer_scripts', function()
 	if ( $pagenow == 'post.php' && get_post_type() == 'product' ) :
 		?>
 			<script type="text/html" id="tmpl-variation-gallery-simplified-image">
-			    <li class="image">
-			        <input class="wvgss_variation_id_input" type="hidden" name="woo_variation_gallery_simplified[{{data.product_variation_id}}][]" value="{{data.id}}">
-			        <img src="{{data.url}}">
-			        <a href="#" class="delete remove-variation-gallery-simplified-image"><span class="dashicons dashicons-dismiss"></span></a>
-			    </li>
+				<li class="image">
+					<input class="wvgss_variation_id_input" type="hidden" name="woo_variation_gallery_simplified[{{data.product_variation_id}}][]" value="{{data.id}}">
+					<img src="{{data.url}}">
+					<a href="#" class="delete remove-variation-gallery-simplified-image"><span class="dashicons dashicons-dismiss"></span></a>
+				</li>
 			</script>
 		<?php
 	endif;
@@ -227,11 +227,11 @@ add_action( 'woocommerce_product_after_variable_attributes', function( $loop, $v
 									foreach ( $gallery_images as $image_id ):
 										$image = wp_get_attachment_image_src( absint( $image_id ) );
 										?>
-								        <li class="image">
-								            <input class="wvgs_variation_id_input" type="hidden" name="woo_variation_gallery_simplified[<?php echo esc_attr( $variation_id ) ?>][]" value="<?php echo absint( $image_id ) ?>">
-								            <img src="<?php echo esc_url( $image[ 0 ] ) ?>">
-								            <a href="#" class="delete remove-variation-gallery-simplified-image"><span class="dashicons dashicons-dismiss"></span></a>
-								        </li>
+										<li class="image">
+											<input class="wvgs_variation_id_input" type="hidden" name="woo_variation_gallery_simplified[<?php echo esc_attr( $variation_id ) ?>][]" value="<?php echo absint( $image_id ) ?>">
+											<img src="<?php echo esc_url( $image[ 0 ] ) ?>">
+											<a href="#" class="delete remove-variation-gallery-simplified-image"><span class="dashicons dashicons-dismiss"></span></a>
+										</li>
 									<?php endforeach;
 								}
 							?>
