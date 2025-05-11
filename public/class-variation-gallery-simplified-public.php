@@ -40,7 +40,7 @@ class Variation_Gallery_Simplified_Public {
 	 * @since     2.0.0
 	 * @access    public
 	 * @param     string $plugin_name The name of the plugin.
-	 * @param     string $version The version of this plugin.
+	 * @param     string $version     The version of this plugin.
 	 */
 	public function __construct( $plugin_name, $version ) {
 		$this->plugin_name = $plugin_name;
@@ -86,10 +86,8 @@ class Variation_Gallery_Simplified_Public {
 	 *
 	 * @since     1.0.0
 	 * @access    public
-	 *
 	 * @param     int|WC_Product $product The product ID or product object.
-	 *
-	 * @return    array|false An array of available variations, or false on error.
+	 * @return    array|false             An array of available variations, or false on error.
 	 */
 	public static function get_available_variations( $product ) {
 		// Check if the provided $product is a numeric ID.
@@ -125,9 +123,8 @@ class Variation_Gallery_Simplified_Public {
 	 *
 	 * @since     1.0.0
 	 * @access    public
-	 *
-	 * @param int $product_id The ID of the product.
-	 * @param int $variation_id The ID of the variation (optional, defaults to 0).
+	 * @param     int $product_id   The ID of the product.
+	 * @param     int $variation_id The ID of the variation (optional, defaults to 0).
 	 */
 	public static function render_gallery_html( $product_id, $variation_id = 0 ) {
 		$columns           = apply_filters( 'woocommerce_product_thumbnails_columns', 4 );

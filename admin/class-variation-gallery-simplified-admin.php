@@ -40,7 +40,7 @@ class Variation_Gallery_Simplified_Admin {
 	 * @since     2.0.0
 	 * @access    public
 	 * @param     string $plugin_name The name of this plugin.
-	 * @param     string $version The version of this plugin.
+	 * @param     string $version     The version of this plugin.
 	 */
 	public function __construct( $plugin_name, $version ) {
 		$this->plugin_name = $plugin_name;
@@ -120,7 +120,6 @@ class Variation_Gallery_Simplified_Admin {
 	 *
 	 * @since     2.0.0
 	 * @access    public
-	 *
 	 * @param     array $links The existing array of plugin action links.
 	 * @return    array $links The updated array of plugin action links, including the settings link.
 	 */
@@ -184,10 +183,9 @@ class Variation_Gallery_Simplified_Admin {
 	 *
 	 * @since     2.0.0
 	 * @access    public
-	 *
-	 * @param     int     $loop The loop counter for the variation.
+	 * @param     int     $loop           The loop counter for the variation.
 	 * @param     array   $variation_data The variation data.
-	 * @param     WP_Post $variation The variation object.
+	 * @param     WP_Post $variation      The variation object.
 	 */
 	public function add_upload_gallery_images_input( $loop, $variation_data, $variation ) {
 		$variation_id   = absint( $variation->ID );
@@ -243,7 +241,6 @@ class Variation_Gallery_Simplified_Admin {
 	 *
 	 * @since     2.0.0
 	 * @access    public
-	 *
 	 * @param     int $variation_id The ID of the product variation.
 	 */
 	public function save_product_variation( $variation_id ) {

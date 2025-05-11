@@ -79,8 +79,8 @@ class Variation_Gallery_Simplified {
 	 * Include the following files that make up the plugin:
 	 *
 	 * - Variation_Gallery_Simplified_Loader. Orchestrates the hooks of the plugin.
-	 * - Variation_Gallery_Simplified_i18n. Defines internationalization functionality.
-	 * - Variation_Gallery_Simplified_Admin. Defines all hooks for the admin area.
+	 * - Variation_Gallery_Simplified_i18n.   Defines internationalization functionality.
+	 * - Variation_Gallery_Simplified_Admin.  Defines all hooks for the admin area.
 	 * - Variation_Gallery_Simplified_Public. Defines all hooks for the public side of the site.
 	 *
 	 * Create an instance of the loader which will be used to register the hooks

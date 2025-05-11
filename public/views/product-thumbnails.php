@@ -10,9 +10,9 @@
  * happen. When this occurs the version of the template file will be bumped and
  * the readme will list any important changes.
  *
- * @see         https://woocommerce.com/document/template-structure/
- * @package     WooCommerce\Templates
- * @version     9.8.0
+ * @see        https://woocommerce.com/document/template-structure/
+ * @package    WooCommerce\Templates
+ * @version    9.8.0
  */
 
 // If this file is called directly, abort.
@@ -42,10 +42,9 @@ if ( $attachment_ids && $product->get_image_id() ) {
 		/**
 		 * Filter product image thumbnail HTML string.
 		 *
-		 * @since 1.6.4
-		 *
-		 * @param string $html          Product image thumbnail HTML string.
-		 * @param int    $attachment_id Attachment ID.
+		 * @since    1.6.4
+		 * @param    string $html          Product image thumbnail HTML string.
+		 * @param    int    $attachment_id Attachment ID.
 		 */
 		echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', wc_get_gallery_image_html( $attachment_id, false, $key ), $attachment_id ); // PHPCS:Ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	}
