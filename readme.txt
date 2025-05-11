@@ -14,6 +14,7 @@ Plugin helps you add variation gallery images to show on product page.
 One Click Away From Adding Multiple Variation Gallery Images To Your Product Variations Individually To Show On Product Page. Plugin Uses Woocommerce Built-in Template To Render Variation Image Gallery To Avoid Any Conflicts.
 
 = Features: =
+
 - Effortlessly Add Variation Images.
 - No Complicated Settings.
 - Seamlessly Integrates with WooCommerce’s Default Template System.
@@ -24,6 +25,7 @@ One Click Away From Adding Multiple Variation Gallery Images To Your Product Var
 Contact me sagorh672(at)gmail.com
 
 == Installation ==
+
 To add a WordPress Plugin using the built-in plugin installer:
 
 Go to Plugins > Add New.
@@ -42,12 +44,14 @@ To add a WordPress Plugin from github repo / plugin zip file :
 If successful, click Activate Plugin to activate it, or Return to Plugin Installer for further actions.
 
 == Frequently Asked Questions ==
+
 = How to use this plugin? =
 Just activate the plugin, you are good to go. Go to any Variable Product and under variations you will see buttons to add gallery images. All are done for you. See screenshots if needed.
 = Not working with my custom build single product page? =
 It Might Not Work If Any Theme/Plugin Not Use Woocommerce Templating System For Single Product Page Such As If You Use Page Builder To Build The Single Product Page Entirely. Please contact me with your theme name or open a support ticket to add compatibilty.
 
 == Screenshots ==
+
 1. Dashboard.
 2. Dashboard Image Added.
 3. Dashboard Gallery Image Section Collapsed.

@@ -50,8 +50,8 @@ class Variation_Gallery_Simplified_Public {
 	/**
 	 * Register the stylesheets for the public-facing side of the site.
 	 *
-	 * @since    2.0.0
-	 * @access   public
+	 * @since     2.0.0
+	 * @access    public
 	 */
 	public function enqueue_styles() {
 		wp_enqueue_style( $this->plugin_name, VARIATION_GALLERY_SIMPLIFIED_PLUGIN_URL . 'public/css/public.css', array(), $this->version, 'all' );
@@ -60,8 +60,8 @@ class Variation_Gallery_Simplified_Public {
 	/**
 	 * Register the JavaScript for the public-facing side of the site.
 	 *
-	 * @since    2.0.0
-	 * @access   public
+	 * @since     2.0.0
+	 * @access    public
 	 */
 	public function enqueue_scripts() {
 		wp_enqueue_script( $this->plugin_name, VARIATION_GALLERY_SIMPLIFIED_PLUGIN_URL . 'public/js/public.js', array( 'jquery' ), $this->version, false );

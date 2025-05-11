@@ -50,8 +50,8 @@ class Variation_Gallery_Simplified_Admin {
 	/**
 	 * Register the stylesheets for the admin area.
 	 *
-	 * @since    2.0.0
-	 * @access   public
+	 * @since     2.0.0
+	 * @access    public
 	 */
 	public function enqueue_styles() {
 		global $pagenow;
@@ -65,8 +65,8 @@ class Variation_Gallery_Simplified_Admin {
 	/**
 	 * Register the JavaScript for the admin area.
 	 *
-	 * @since    2.0.0
-	 * @access   public
+	 * @since     2.0.0
+	 * @access    public
 	 */
 	public function enqueue_scripts() {
 		global $pagenow;
@@ -136,8 +136,8 @@ class Variation_Gallery_Simplified_Admin {
 	 * This function checks if the required plugin is active.
 	 * If not, it displays a warning notice and deactivates the current plugin.
 	 *
-	 * @since    2.0.0
-	 * @access   public
+	 * @since     2.0.0
+	 * @access    public
 	 */
 	public function admin_notices() {
 		// Check if required plugin is active.
@@ -164,8 +164,8 @@ class Variation_Gallery_Simplified_Admin {
 	 * feature. This is important for ensuring the plugin works correctly with
 	 * WooCommerce versions that support this feature.
 	 *
-	 * @since    2.0.0
-	 * @access   public
+	 * @since     2.0.0
+	 * @access    public
 	 */
 	public function declare_compatibility_with_wc_custom_order_tables() {
 		if ( class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class ) ) {
@@ -241,10 +241,10 @@ class Variation_Gallery_Simplified_Admin {
 	 * If the data is not present, it deletes the meta key to remove any previously
 	 * saved gallery images.
 	 *
-	 * @since    2.0.0
-	 * @access   public
+	 * @since     2.0.0
+	 * @access    public
 	 *
-	 * @param    int $variation_id The ID of the product variation.
+	 * @param     int $variation_id The ID of the product variation.
 	 */
 	public function save_product_variation( $variation_id ) {
 		// Verify nonce.
