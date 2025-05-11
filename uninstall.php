@@ -1,7 +1,13 @@
 <?php
-
 /**
- * Bail if uninstall constant is not defined
+ * Fired when the plugin is uninstalled.
+ *
+ * @since      2.0.0
+ * @package    Variation_Gallery_Simplified
+ * @author     Sajjad Hossain Sagor <sagorh672@gmail.com>
  */
 
-defined( 'WP_UNINSTALL_PLUGIN' ) || exit;
+// If uninstall not called from WordPress, then exit.
+if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
+	die;
+}

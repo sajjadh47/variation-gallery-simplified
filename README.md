@@ -1,14 +1,11 @@
-![image](https://github.com/sajjadh47/Variation-Gallery-Simplified/assets/16754987/0f7a0b57-3743-4109-9235-1d033e93ebb6)![image](https://github.com/sajjadh47/Variation-Gallery-Simplified/assets/16754987/fbb74131-38ee-4cda-9fec-677c96dd0b5b)# Variation Gallery Simplified
+# Variation Gallery Simplified
 
-**Contributors:** sajjad67 \
-**Tags:** woocommerce,woo,variation,gallery,carousal,slider,variation-gallery,woo-variation \
-**Requires at least:** 5.7 \
-**Tested up to:** 6.6 \
-**Stable tag:** 1.0.2 \
-**License:** GPLv2 \
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html
+**Tags:** woocommerce, variation, gallery, slider, variation-gallery \
+**Tested up to:** 6.8 \
+**Stable tag:** 2.0.0 \
+**Requires PHP:** 8.0
 
-This plugin helps you add different variation image gallery to show on product page.
+Plugin helps you add variation gallery images to show on product page.
 
 ## Description
 
@@ -16,10 +13,11 @@ One Click Away From Adding Multiple Variation Gallery Images To Your Product Var
 
 ### Features:
 
-- Easily Add Variation Images
-- No Complex Settings
-- Uses Woocommerce Default Templating System
-- Can Be Turned Off Easily By Removing Gallery Images
+- Effortlessly Add Variation Images.
+- No Complicated Settings.
+- Seamlessly Integrates with WooCommerce’s Default Template System.
+- Disable Instantly by Removing Gallery Images.
+- Quick Setup and User-Friendly Interface.
 
 **Interested in contributing to Variation Gallery Simplified?**
 Contact me sagorh672(at)gmail.com
@@ -70,8 +68,10 @@ It Might Not Work If Any Theme/Plugin Not Use Woocommerce Templating System For 
 
 ![Single Page view of variation gallery.](https://ps.w.org/variation-gallery-simplified/assets/screenshot-4.png)
 
-
 ## Changelog
+
+### 2.0.0
+- Checked for latest wp version 6.8
 
 ### 1.0.2
 - Compatibility check for wp 6.6
