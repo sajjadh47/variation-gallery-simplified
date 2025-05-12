@@ -21,9 +21,6 @@ One Click Away From Adding Multiple Variation Gallery Images To Your Product Var
 - Disable Instantly by Removing Gallery Images.
 - Quick Setup and User-Friendly Interface.
 
-**Interested in contributing to Variation Gallery Simplified?**
-Contact me sagorh672(at)gmail.com
-
 == Installation ==
 
 To add a WordPress Plugin using the built-in plugin installer:
