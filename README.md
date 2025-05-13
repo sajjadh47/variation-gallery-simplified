@@ -2,7 +2,6 @@
 
 **Tags:** woocommerce, variation, gallery, slider, variation-gallery \
 **Tested up to:** 6.8 \
-**Stable tag:** 2.0.0 \
 **Requires PHP:** 8.0
 
 Plugin helps you add variation gallery images to show on product page.
