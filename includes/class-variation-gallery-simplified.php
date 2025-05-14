@@ -59,7 +59,7 @@ class Variation_Gallery_Simplified {
 	 * @access    public
 	 */
 	public function __construct() {
-		$this->version     = defined( 'VARIATION_GALLERY_SIMPLIFIED_VERSION' ) ? VARIATION_GALLERY_SIMPLIFIED_VERSION : '1.0.0';
+		$this->version     = defined( 'VARIATION_GALLERY_SIMPLIFIED_PLUGIN_VERSION' ) ? VARIATION_GALLERY_SIMPLIFIED_PLUGIN_VERSION : '1.0.0';
 		$this->plugin_name = 'variation-gallery-simplified';
 
 		$this->plugin_name = 'variation-gallery-simplified';
