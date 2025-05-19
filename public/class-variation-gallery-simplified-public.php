@@ -122,6 +122,7 @@ class Variation_Gallery_Simplified_Public {
 	 * products, and allows for customization of the gallery classes and image HTML.
 	 *
 	 * @since     1.0.0
+	 * @static
 	 * @access    public
 	 * @param     int $product_id   The ID of the product.
 	 * @param     int $variation_id The ID of the variation (optional, defaults to 0).
