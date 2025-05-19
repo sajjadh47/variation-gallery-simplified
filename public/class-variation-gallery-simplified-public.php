@@ -85,6 +85,7 @@ class Variation_Gallery_Simplified_Public {
 	 * variations.
 	 *
 	 * @since     1.0.0
+	 * @static
 	 * @access    public
 	 * @param     int|WC_Product $product The product ID or product object.
 	 * @return    array|false             An array of available variations, or false on error.
