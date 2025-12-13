@@ -91,12 +91,6 @@ class Variation_Gallery_Simplified {
 		require_once VARIATION_GALLERY_SIMPLIFIED_PLUGIN_PATH . 'includes/class-variation-gallery-simplified-loader.php';
 
 		/**
-		 * The class responsible for defining internationalization functionality
-		 * of the plugin.
-		 */
-		require_once VARIATION_GALLERY_SIMPLIFIED_PLUGIN_PATH . 'includes/class-variation-gallery-simplified-i18n.php';
-
-		/**
 		 * The class responsible for defining all actions that occur in the admin area.
 		 */
 		require_once VARIATION_GALLERY_SIMPLIFIED_PLUGIN_PATH . 'admin/class-variation-gallery-simplified-admin.php';
