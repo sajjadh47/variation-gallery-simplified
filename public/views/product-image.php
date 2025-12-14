@@ -42,7 +42,4 @@ if ( $product->is_type( ProductType::VARIABLE ) ) {
 			Variation_Gallery_Simplified_Public::render_gallery_html( $product->get_id(), $variation_id );
 		}
 	}
-} else {
-	// Display gallery for simple products.
-	Variation_Gallery_Simplified_Public::render_gallery_html( $product->get_id() );
 }
