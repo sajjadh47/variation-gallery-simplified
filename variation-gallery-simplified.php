@@ -13,7 +13,7 @@
  * Plugin Name:       Variation Gallery Simplified
  * Plugin URI:        https://wordpress.org/plugins/variation-gallery-simplified/
  * Description:       Add multiple images per product variation on WooCommerce.
- * Version:           2.0.2
+ * Version:           2.0.3
  * Requires at least: 5.6
  * Requires PHP:      8.0
  * Author:            Sajjad Hossain Sagor
@@ -33,7 +33,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Currently plugin version.
  */
-define( 'VARIATION_GALLERY_SIMPLIFIED_PLUGIN_VERSION', '2.0.2' );
+define( 'VARIATION_GALLERY_SIMPLIFIED_PLUGIN_VERSION', '2.0.3' );
 
 /**
  * Define Plugin Folders Path
@@ -43,6 +43,8 @@ define( 'VARIATION_GALLERY_SIMPLIFIED_PLUGIN_PATH', plugin_dir_path( __FILE__ ) 
 define( 'VARIATION_GALLERY_SIMPLIFIED_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
 define( 'VARIATION_GALLERY_SIMPLIFIED_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
+
+define( 'VARIATION_GALLERY_SIMPLIFIED_PLUGIN_FILE', __FILE__ );
 
 /**
  * The code that runs during plugin activation.

@@ -68,6 +68,9 @@ It Might Not Work If Any Theme/Plugin Not Use Woocommerce Templating System For 
 
 ## Changelog
 
+### 2.0.3
+- Added woocommerce High Performance Order Storage compatibility.
+
 ### 2.0.2
 - Compatibility checkup for latest wp version 7.0
 

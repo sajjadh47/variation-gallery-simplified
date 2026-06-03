@@ -168,7 +168,7 @@ class Variation_Gallery_Simplified_Admin {
 	 */
 	public function declare_compatibility_with_wc_custom_order_tables() {
 		if ( class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class ) ) {
-			\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', __FILE__, true );
+			\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', VARIATION_GALLERY_SIMPLIFIED_PLUGIN_FILE, true );
 		}
 	}
 

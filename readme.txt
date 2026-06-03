@@ -4,7 +4,7 @@ Contributors: sajjad67
 Author: Sajjad Hossain Sagor
 Tested up to: 7.0
 Requires at least: 5.6
-Stable tag: 2.0.2
+Stable tag: 2.0.3
 Requires PHP: 8.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -57,6 +57,9 @@ It Might Not Work If Any Theme/Plugin Not Use Woocommerce Templating System For 
 4. Single Page view of variation gallery.
 
 == Changelog ==
+
+= 2.0.3 =
+- Added woocommerce High Performance Order Storage compatibility.
 
 = 2.0.2 =
 - Compatibility checkup for latest wp version 7.0
