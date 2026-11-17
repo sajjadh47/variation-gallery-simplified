@@ -3,7 +3,7 @@
 [![Plugin Banner](https://ps.w.org/variation-gallery-simplified/assets/banner-1544x500.png)](https://wordpress.org/plugins/variation-gallery-simplified/)
 
 **Tags:** woocommerce, variation, gallery, slider, variation-gallery \
-**Tested up to:** 7.0 \
+**Tested up to:** 7.1 \
 **Requires PHP:** 8.0
 
 Plugin helps you add variation gallery images to show on product page.
@@ -67,6 +67,9 @@ It Might Not Work If Any Theme/Plugin Not Use Woocommerce Templating System For 
 ![Single Page view of variation gallery.](https://ps.w.org/variation-gallery-simplified/assets/screenshot-4.png)
 
 ## Changelog
+
+### 2.0.4
+- Compatibility checkup for latest wp version 7.1
 
 ### 2.0.3
 - Added woocommerce High Performance Order Storage compatibility.

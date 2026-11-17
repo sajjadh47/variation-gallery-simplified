@@ -2,9 +2,9 @@
 Tags: WooCommerce, variation, gallery, slider, variation-gallery
 Contributors: sajjad67
 Author: Sajjad Hossain Sagor
-Tested up to: 7.0
+Tested up to: 7.1
 Requires at least: 5.6
-Stable tag: 2.0.3
+Stable tag: 2.0.4
 Requires PHP: 8.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -57,28 +57,22 @@ It Might Not Work If Any Theme/Plugin Not Use Woocommerce Templating System For 
 4. Single Page view of variation gallery.
 
 == Changelog ==
-
+= 2.0.4 =
+- Compatibility checkup for latest wp version 7.1
 = 2.0.3 =
 - Added woocommerce High Performance Order Storage compatibility.
-
 = 2.0.2 =
 - Compatibility checkup for latest wp version 7.0
-
 = 2.0.1 =
 - Checked for latest wp version 6.9
-
 = 2.0.0 =
 - Checked for latest wp version 6.8
-
 = 1.0.3
 - Added woocommerce High Performance Order Storage compatibility.
-
 = 1.0.2 =
 - Compatibility check for wp v6.6
-
 = 1.0.1 =
 - Compatibility check for wp v6.3
-
 = 1.0.0 =
 - Initial release.
 
